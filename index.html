@@ -35,7 +35,15 @@
                 "You look like a fan of our",
                 "Take home an order of the",
                 "Pass me the",
-                "Our latest creation, the"
+                "Our latest creation, the",
+                "Your server Tammy recommends the",
+                "We're almost out of the",
+                "The manager Derek says don't miss the",
+                "I don't always order off the menu, but when I do, I order the",
+                "That commercial at half-time advertised the",
+                "Back by popular demand!! The",
+                "Why order filet when you could have",
+                "Do menus typically have a clearance section? Whatever, I'll have the"
             ];
             /**
              *  On load, called to load the auth2 library and API client library.
@@ -79,7 +87,7 @@
              */
             function generateMenuItem() {
                 gapi.client.sheets.spreadsheets.values.get({
-                    spreadsheetId: '1oPd2A26CD0AA9-6ZPbg64aniO7a_pqUws1tZeKRD_28',
+                    spreadsheetId: '1-0zar1rgg08pNDBiKqDcfdqmKMXTV5eB8vhSnsdbWEs',
                     range: 'A2:D'
                 }).then(function (response) {
                     var range = response.result;

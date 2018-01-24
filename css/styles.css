@@ -54,6 +54,7 @@ a.btn:hover {
     padding: 6px;
     font-size: 16px;
     margin-top: 0;
+    border: 0;
 }
 
 @media only screen

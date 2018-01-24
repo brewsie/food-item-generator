@@ -8,8 +8,15 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/styles.css">
         <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+        <meta property="og:url" content="http://applebeesme.nu" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Applebeesme.nu - The world's best TGI Chilibees amazing menu item generator" />
+        <meta property="og:description" content="Imagine delectable dishes with the press of a button!" />
+        <meta property="og:image" content="http://applebeesme.nu/share.jpg" />
     </head>
     <body>
+    <div class="fb-share-button" data-href="http://applebeesme.nu" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="btn fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fapplebeesme.nu%2F&amp;src=sdkpreparse">Share!</a></div>
         <div id="content">
             <h1>Applebees Me.nu</h1>
             <h2 id="intro"></h2>
@@ -43,7 +50,20 @@
                 "That commercial at half-time advertised the",
                 "Back by popular demand!! The",
                 "Why order filet when you could have",
-                "Do menus typically have a clearance section? Whatever, I'll have the"
+                "Do menus typically have a clearance section? Whatever, I'll have the",
+                "Nothing soaks up a Margarita Gigante quite like the",
+                "We were going have salads, but… let’s be bad! We’ll have the",
+                "Y’know what - let’s just split the",
+                "You’re in luck - it’s Tasty Tuesday! Which means one dollar",
+                "Dougie scored a goal at his soccer game! This calls for",
+                "Score! You’ve got a coupon for half price",
+                "That gift card from Aunt Gertrude will just about cover the",
+                "Who could resist the tantalizing aroma of the",
+                "The guy at that table over there is really going to town on the",
+                "I can’t believe they got THE Gary Busey to advertise the",
+                "The Manager’s Special tonight is the",
+                "Sorry, we just ran out CheesyBites. Can I interest you in the",
+                "Excuse me, there’s a hair in my"
             ];
             /**
              *  On load, called to load the auth2 library and API client library.
@@ -111,9 +131,19 @@
         <div>
             <a class="btn" href="#" onClick="generateMenuItem()">Next Course</a>
         </div>
+
         <script async defer src="https://apis.google.com/js/api.js"
                 onload="this.onload=function(){};handleClientLoad()"
                 onreadystatechange="if (this.readyState === 'complete') this.onload()">
+        </script>
+        <div id="fb-root"></div>
+         <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=210102645695757&autoLogAppEvents=1';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
         </script>
     </body>
 </html>

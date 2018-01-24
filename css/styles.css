@@ -43,3 +43,11 @@ a.btn:hover {
     background-color: #fff;
     color: #3c4850;
 }
+
+@media only screen
+and (max-width: 667px) {
+    h1{ font-size: 25px; margin-bottom: 20px; }
+    h2 { font-size: 35px; }
+    #item { font-size: 70px; min-height: 100px; }
+    #content { margin: 5px; }
+}

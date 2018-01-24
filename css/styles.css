@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+}
+h1, h2, #item, a.btn {
+    font-family: 'Amatic SC', cursive;
+    margin: 0 auto;
+    display:table;
+    text-align: center;
+}
+
+#content {
+    margin: 10px;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: lightslategray;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #3c4850;
+}
+
+#item {
+    font-size: 100px;
+    min-height: 240px;
+    width: 70%;
+    color: #3c4850;
+}
+
+a.btn {
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid black;
+    font-size: 30px;
+    background-color: #3c4850;
+    color: #fff;
+}
+a.btn:hover {
+    background-color: #fff;
+    color: #3c4850;
+}

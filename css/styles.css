@@ -57,6 +57,19 @@ a.btn:hover {
     border: 0;
 }
 
+.footer {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    padding: 3px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightslategray;
+    color: white;
+    text-align: center;
+}
+
 @media only screen
 and (max-width: 667px) {
     h1{ font-size: 25px; margin-bottom: 20px; }

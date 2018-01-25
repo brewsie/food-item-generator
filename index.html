@@ -11,7 +11,7 @@
 
         <meta property="og:url" content="http://applebeesme.nu" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Applebeesme.nu - Applebeesme.nu - The Bottomless Menu Item Generator!" />
+        <meta property="og:title" content="Applebeesme.nu - The Bottomless Menu Item Generator!" />
         <meta property="og:description" content="Imagine delectable dishes with the press of a button!" />
         <meta property="og:image" content="http://applebeesme.nu/share.jpg" />
     </head>
@@ -126,7 +126,8 @@
                         displayMessage('No data found.');
                     }
                 }, function (response) {
-                    displayMessage('Error: ' + response.result.error.message);
+                    //displayMessage('Error: ' + response.result.error.message);
+                    displayMessage('We are experiencing technical difficulties with our deep-fryer');
                     genButton.innerHTML = "Try Again"
                 });
                 genButton.style.visibility = "visible";
